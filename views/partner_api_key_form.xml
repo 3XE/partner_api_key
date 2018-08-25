@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="partner_api_key_form_view" model="ir.ui.view">
+        <field name="name">API Key</field>
+        <field name="model">res.partner</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="lang" position="after">
+                <field name="api_key"/>
+            </field>
+        </field>
+    </record>
+</odoo>
+
