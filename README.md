@@ -9,4 +9,4 @@ Makes no assumptions about read/write permissions on field.
 `res.partner` model is extended by `ApiPartner` class to add `api_key` field.
 
 ## Demo
-Demo data is empty but left there as a placeholder.
+Demo data is empty but left there as a placeholder.  Pull requests welcome.
